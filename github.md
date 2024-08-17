@@ -120,6 +120,10 @@ Fork
 ### Creating a New Repository
 
 1. Create a New Repository
+    * [If you already started the repo locally](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git)
+        1. Create a repo on Github.com repo  exactly the same name
+        1. Take the url from the github repo and create a remote out of it (add your token to the address)
+        1. push the branch to the repo
 2. Add Collaborators(if any)
     * This gives them push access
 3. Add code to repository
