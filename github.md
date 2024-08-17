@@ -1,4 +1,4 @@
-# GitHub 
+# Authentication
 
 ## 4.3 Git on the Server - Generating Your SSH Public Key
 
@@ -39,6 +39,19 @@ Definition
 1. Copy the text in the .pub file
 1. Paste the text in the Add new SSH Key file in git
 
+## [Generate Authenticaton Token](https://www.youtube.com/watch?v=ePCBuIQJAUc&list=PLzN5nbXFIN-tt8CKVL2-wSAKnWN6Ww1G8&index=3)
+
+1:00 Settings to find where to get your token
+
+2:00 Settings for token
+
+2:55 getting your key
+
+3:20 Adding your key to your remote
+* `git remote set-url origin https://<token>@github.com/<username>/<repo>`
+
+
+# Contributing
 
 ## [6.2 GitHub - Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 ### Github Defined
@@ -92,3 +105,12 @@ Fork
 
 1. Push our new topic branch back up to our GitHub fork.
     * `git push <remote> <new-branch>`
+
+1. Navigate back to the Github.com > your forked repository you cloned from 
+1. You should have an option for button that says "Compare & pull request" in green ![alt text](git-compare-pull-button.png)
+1. Press butteon to take you to the commit box on why you should merge your pull request
+1. Have the owner of repository review your pull request and make a decesion to merge or not
+
+
+
+
