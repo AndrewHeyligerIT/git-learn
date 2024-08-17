@@ -112,5 +112,17 @@ Fork
 1. Have the owner of repository review your pull request and make a decesion to merge or not
 
 
+# Your Project
+
+## [6.3 GitHub - Maintaining a Project](https://git-scm.com/book/en/v2/GitHub-Maintaining-a-Project)
 
 
+### Creating a New Repository
+
+1. Create a New Repository
+2. Add Collaborators(if any)
+    * This gives them push access
+3. Add code to repository
+4. Manage Pull Requests
+    * You will get an email notification
+5. To be continued...
